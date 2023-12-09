@@ -1,0 +1,37 @@
+/* Education.css */
+
+.education-section {
+  background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+  color: #fff;
+  padding: 80px 0;
+}
+
+.education-details {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.education-details:hover {
+  transform: scale(1.03);
+}
+
+.education-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6c63ff;
+}
+
+.education-institution {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f27121;
+}
+
+.education-duration {
+  font-size: 1.2rem;
+  color: #7b7d7d;
+  margin-top: 8px;
+}
